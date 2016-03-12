@@ -5,7 +5,7 @@
 
 # Conventions
 
-## categories
+## categorization
 TOOD:
 
 ## usecases
@@ -23,18 +23,18 @@ TOOD:
 TODO:
 
 
-## special events
+## special cases
 - initial commit -> :hatching_chick: 
-- major version release -> :confetti_ball:
-- minior version release -> :tada:
-- patch version release -> :sparkles:
+- release major version -> :confetti_ball:
+- release minior version -> :tada:
+- release patch version -> :sparkles:
 
 TODO:
 
 
 # TODO
-- [] support conventional commit tools (e.g. conventional-changelog)
-- [] create a conventional commit tools with `golang`
+- [ ] support conventional commit tools (e.g. conventional-changelog)
+- [ ] create a conventional commit tools with `golang`
 
 
 # License
