@@ -11,9 +11,9 @@ TOOD:
 ## usecases
 - fix the bug -> :bug:
 - fix the performance -> :rocket:
-- fix teh security fix -> :lock:
-- add file -> :heavy_minus_sign:
-- remove fiel -> :heavy_minus_sign:
+- fix the security fix -> :lock:
+- add file -> :heavy_plus_sign:
+- remove file -> :heavy_minus_sign:
 - change build or deply -> :wrench:
 - change packaging -> :package:
 - change license -> :copyright:
