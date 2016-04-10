@@ -6,7 +6,7 @@
 # Commit Message Format
 All Commit Message Format **MUST** meet this Text Format:
 
-NOTE: :construction:
+> NOTE: WIP :construction:
 ```
 <Emoji> [<Type>:] <Subject>
 [<BLANK LINE>]
@@ -17,7 +17,7 @@ NOTE: :construction:
 
 
 # Types
-NOTE: WIP (:construction:)
+> NOTE: WIP :construction:
 
 - feature
 - fix
@@ -35,7 +35,7 @@ Other prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`
 
 
 # Scope
-NOTE: WIP (:construction:)
+> NOTE: WIP :construction:
 
 
 # Subject
@@ -61,6 +61,7 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 
 
 # Emojis
+> NOTE: WIP :construction:
 
 ## Fixes
 
@@ -68,11 +69,10 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 |:---:|---|---|
 | :bug: | `:bug:` | when fixing **bug** |
 | :rocket: | `:rocket:` | when fixing **performance** issue |
-| :security: | `:security:` | when fixing **security** issue |
-| :globe_with_meridians: | `:globe_with_meridians:` | when fixing **internationalizaation** |
+| :lock: | `:security:` | when fixing **security** issue |
+| :globe_with_meridians: | `:globe_with_meridians:` | when fixing **internationalization** |
 | :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
 
-TODO:
 
 ## Module / Deploy / Configration
 
@@ -99,7 +99,7 @@ TODO:
 | Emoji | Raw Emoji Code | Description |
 |:---:|---|---|
 | :pencil: | `:pencil:` | when updating  **documentation** |
-| :license: | `:license:` | when deciding or changing **license** |
+| :copyright: | `:license:` | when deciding or changing **license** |
 
 ## Chores
 
