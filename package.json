@@ -21,8 +21,11 @@
     "type": "git",
     "url": "git+https://github.com/kazupon/git-commit-message-convention.git"
   },
-  "scripts":{
+  "scripts": {
     "build": "babel src -d lib",
     "test": "ava --require babel-register"
+  },
+  "dependencies": {
+    "conventional-commits-parser": "^1.2.0"
   }
 }
