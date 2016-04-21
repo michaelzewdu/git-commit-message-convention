@@ -1,0 +1,22 @@
+{
+  "name": "git-commit-message-convention",
+  "description": "Extend git commit message from angular style",
+  "version": "0.0.0",
+  "author": {
+    "name": "kazuya kawaguchi",
+    "email": "kawakazu80@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/kazupon/git-commit-message-convention/issues"
+  },
+  "homepage": "https://github.com/kazupon/git-commit-message-convention",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kazupon/git-commit-message-convention.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
