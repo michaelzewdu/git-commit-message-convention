@@ -91,14 +91,15 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|---|---|
-| :wrench: | `:wrench:` | when **building** |
+| :wrench: | `:wrench:` | when update **configration** |
 | :rocket: | `:rocket:` | when **deploy** |
-| :package: | `:package:` | when **packaging** or **bundling** |
+| :package: | `:package:` | when **packaging** or **bundling** or **building** |
 | :sparkles: | `:sparkles:` | when releasing **patch** version |
 | :tada: | `:tada:` | when releasing **minior** version |
 | :confetti_ball: | `:confetti_ball:` | when releasing **major** version |
 | :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
 | :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
+| :pushpin: | `:pushpin:` | when pined **dependencies** |
 
 # Refactoring / Tests
 
