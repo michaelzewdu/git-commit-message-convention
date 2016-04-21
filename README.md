@@ -1,4 +1,6 @@
-# emoji-commit-log-convention
+# git-commit-message-convention
+
+Extend git commit message from angular style
 
 > :warning: WIP :construction:
 
@@ -7,29 +9,36 @@
 All Commit Message Format **MUST** meet this Text Format:
 
 > NOTE: WIP :construction:
+
 ```
-<Emoji> [<Type>:] <Subject>
+[<Emoji> ][<Type>: ]<Subject>
 [<BLANK LINE>]
 [<Message Body>]
 [<BLANK LINE>]
-[<Message Footer]
+[<Message Footer>]
 ```
 
 
 # Types
 > NOTE: WIP :construction:
 
-- feature
+- new
 - fix
 - improve
+- breaking
+- deprecated
+- performance
+- update
+- build
+- upgrade
 - docs
 - refactor
 - test
-- performance
 - style
 - chore
 
-If the prefix is `feature`, `fix` or `performance`, it will appear in the changelog. However if there is any [BREAKING CHANGE](#footer), the commit will always appear in the changelog.
+
+If the prefix is `new`, `fix` or `performance`, it will appear in the changelog. However if there is any [BREAKING CHANGES](#footer), the commit will always appear in the changelog.
 
 Other prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`, `style`, `refactor`, and `test` for non-changelog related tasks.
 
@@ -51,9 +60,11 @@ Just as in the **Subject**, use the imperative, present tense: "change" not "cha
 
 
 # Message Footer
-The Message Footer should contain any information about **Breaking Changes** and also Message Footer should be **recommended** [GitHub Issue](https://github.com/features#issues) ID Reference, Ex. `Issue #27`, `Fixes #1`, `Closes #2`, `Resolves #3`.
+The Message Footer should contain any information about **Notes**, **Breaking Changes**, **Deprecated** and also Message Footer should be **recommended** [GitHub Issue](https://github.com/features#issues) ID Reference, Ex. `Issue #27`, `Fixes #1`, `Closes #2`, `Resolves #3`.
 
+**Notes** should start with the word `NOTE:` with a space or two newlines. The rest of the commit message is then used for this.
 **Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
+**Deprecated** should start with the word `DEPRECATED:` with a space or two newlines. The rest of the commit message is then used for this.
 
 
 # Revert
@@ -67,18 +78,21 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|---|---|
+| :star: | `:star:` | when adding **new feature** |
+| :zap: | `:zap:` | when improving **feature** |
 | :bug: | `:bug:` | when fixing **bug** |
-| :rocket: | `:rocket:` | when fixing **performance** issue |
-| :lock: | `:security:` | when fixing **security** issue |
+| :lipstick: | `:lipstick:` | when fixing **UI/Cosmetic** |
 | :globe_with_meridians: | `:globe_with_meridians:` | when fixing **internationalization** |
-| :lipstick: | `:lipstick:` | when improving **UI**/Cosmetic |
+| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | when fixing **performance** issue |
+| :lock: | `:security:` | when fixing **security** issue |
 
 
 ## Module / Deploy / Configration
 
 | Emoji | Raw Emoji Code | Description |
 |:---:|---|---|
-| :wrench: | `:wrench:` | when **building** or **deploy** |
+| :wrench: | `:wrench:` | when **building** |
+| :rocket: | `:rocket:` | when **deploy** |
 | :package: | `:package:` | when **packaging** or **bundling** |
 | :sparkles: | `:sparkles:` | when releasing **patch** version |
 | :tada: | `:tada:` | when releasing **minior** version |
@@ -107,6 +121,7 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 |:---:|---|---|
 | :hatching_chick: | `:hatching_chick:` | when **initial** commit |
 | :construction: | `:construction:` | when **WIP** commits |
+| :warning: | `:warning:` | when **warning** commits |
 | :heavy_plus_sign: | `:heavy_plus_sign:` | when **adding** files |
 | :heavy_minus_sign: | `:heavy_minus_sign:` | when **removing** files |
 
@@ -116,9 +131,9 @@ Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
 
 # Examples
 
-feature:
+new:
 ```
-feature: add 'graphiteWidth' option
+new: add 'graphiteWidth' option
 ```
 
 bug fix:
@@ -130,14 +145,14 @@ Closes #28
 
 improve performance:
 ```
-:rocket: fix: remove graphiteWidth option
+:chart_with_upwards_trend: performance: remove graphiteWidth option
 
 BREAKING CHANGE: The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.
 ```
 
 revert:
 ```
-revert: feature: add 'graphiteWidth' option
+revert: new: add 'graphiteWidth' option
 
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
