@@ -21,7 +21,8 @@
     "type": "git",
     "url": "git+https://github.com/kazupon/git-commit-message-convention.git"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts":{
+    "build": "babel src -d lib",
+    "test": "ava --require babel-register"
   }
 }
