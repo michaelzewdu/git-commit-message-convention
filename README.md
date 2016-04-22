@@ -159,15 +159,6 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
 
-# Others
-- Total Characters of the _Subject_ **MUST** be _Less_ than or _Equal_ to **72** Chars Long.
-- (IMPORTANT) All **WIP** Commits **Should** be Avoided!.
-- (NOTE) Tasks with Commits in `Fixes T###` Format will be Automatically [_Closed as Resolved_](https://help.github.com/articles/closing-issues-via-commit-messages/)!.
-- (WARNING) There is a **Space** Character between Multiple Emojis!.
-- (WARNING) There is **NO** New-Line After the _Task ID Reference_ Line.
-- (NOTE) Every Raw Emoji Text(`:emoji:`) is Counted as One Char!.
-
-
 # TODO
 - [ ] support conventional commit tools (e.g. conventional-changelog)
 - [ ] create a conventional commit tools with `golang`
