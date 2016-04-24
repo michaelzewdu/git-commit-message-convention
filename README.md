@@ -11,7 +11,7 @@ All Commit Message Format **MUST** meet this Text Format:
 > NOTE: WIP :construction:
 
 ```
-[<Emoji> ][<Type>: ]<Subject>
+[<Emoji> ][<Type>[(<Scope>)]: ]<Subject>
 [<BLANK LINE>]
 [<Message Body>]
 [<BLANK LINE>]
