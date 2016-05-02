@@ -2,16 +2,14 @@
 
 Extend git commit message from angular style
 
-> :warning: WIP :construction:
+> :warning:  WIP :construction:
 
 
 # Commit Message Format
 All Commit Message Format **MUST** meet this Text Format:
 
-> NOTE: WIP :construction:
-
 ```
-[<Emoji> ][<Type>[(<Scope>)]: ]<Subject>
+[:<Emoji>: ][<Type>[(<Scope>)]: ]<Subject>
 [<BLANK LINE>]
 [<Message Body>]
 [<BLANK LINE>]
@@ -20,31 +18,42 @@ All Commit Message Format **MUST** meet this Text Format:
 
 
 # Types
-> NOTE: WIP :construction:
 
-- new
-- fix
-- improve
-- breaking
-- deprecated
-- performance
-- update
-- build
-- upgrade
-- docs
-- refactor
-- test
-- style
-- chore
+| Type | Description |
+|:---:|---|
+| `new`| implemented a new feature |
+| `feature`| implemented a new feature (equal `new`) |
+| `bug` | for a bug fix |
+| `performance` | for a performance issue fix |
+| `security` | for a security issue fix |
+| `deprecated` | deprecated a feature |
+| `improvement` | for a backwards-compatible enhancement |
+| `breaking` | for a backwards-incompatible enhancement |
+| `update` | update commits |
+| `refactor` | for the refactoring |
+| `docs` | for the documentation commits |
+| `test` | for the testing commits |
+| `dependency` | when upgrading or downgrading |
+| `config` | when configuration |
+| `build` | when building or bundling |
+| `release` | published for the real world |
+| `wip` | work in progress commits |
+| `chore` | other operations commits |
 
 
-If the prefix is `new`, `fix` or `performance`, it will appear in the changelog. However if there is any [BREAKING CHANGES](#footer), the commit will always appear in the changelog.
+If the prefix is the below types, it will appear in the changelog. 
 
-Other prefixes are up to your discretion. Suggested prefixes are `docs`, `chore`, `style`, `refactor`, and `test` for non-changelog related tasks.
+- `new` (`feature`)
+- `bug`
+- `performance`
+- `security`
+- `deprecated`
+- `improvement`
+- `breaking`
 
 
 # Scope
-> NOTE: WIP :construction:
+The scope could be anything specifying place or category of the commit change. For example $location, $browser, $compile, $rootScope, ngHref, ngClick, ngView, feature1, etc...
 
 
 # Subject
@@ -60,11 +69,9 @@ Just as in the **Subject**, use the imperative, present tense: "change" not "cha
 
 
 # Message Footer
-The Message Footer should contain any information about **Notes**, **Breaking Changes**, **Deprecated** and also Message Footer should be **recommended** [GitHub Issue](https://github.com/features#issues) ID Reference, Ex. `Issue #27`, `Fixes #1`, `Closes #2`, `Resolves #3`.
+The Message Footer should contain any information about **Notes** and also Message Footer should be **recommended** [GitHub Issue](https://github.com/features#issues) ID Reference, Ex. `Issue #27`, `Fixes #1`, `Closes #2`, `Resolves #3`.
 
 **Notes** should start with the word `NOTE:` with a space or two newlines. The rest of the commit message is then used for this.
-**Breaking Changes** should start with the word `BREAKING CHANGE:` with a space or two newlines. The rest of the commit message is then used for this.
-**Deprecated** should start with the word `DEPRECATED:` with a space or two newlines. The rest of the commit message is then used for this.
 
 
 # Revert
@@ -72,59 +79,36 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 
 
 # Emojis
-> NOTE: WIP :construction:
 
-## Fixes
-
-| Emoji | Raw Emoji Code | Description |
-|:---:|---|---|
-| :star: | `:star:` | when adding **new feature** |
-| :zap: | `:zap:` | when improving **feature** |
-| :bug: | `:bug:` | when fixing **bug** |
-| :lipstick: | `:lipstick:` | when fixing **UI/Cosmetic** |
-| :globe_with_meridians: | `:globe_with_meridians:` | when fixing **internationalization** |
-| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | when fixing **performance** issue |
-| :lock: | `:security:` | when fixing **security** issue |
-
-
-## Module / Deploy / Configration
-
-| Emoji | Raw Emoji Code | Description |
-|:---:|---|---|
-| :wrench: | `:wrench:` | when update **configration** |
-| :rocket: | `:rocket:` | when **deploy** |
-| :package: | `:package:` | when **packaging** or **bundling** or **building** |
-| :sparkles: | `:sparkles:` | when releasing **patch** version |
-| :tada: | `:tada:` | when releasing **minior** version |
-| :confetti_ball: | `:confetti_ball:` | when releasing **major** version |
-| :arrow_up: | `:arrow_up:` | when upgrading **dependencies** |
-| :arrow_down: | `:arrow_down:` | when downgrading **dependencies** |
-| :pushpin: | `:pushpin:` | when pined **dependencies** |
-
-# Refactoring / Tests
-
-| Emoji | Raw Emoji Code | Description |
-|:---:|---|---|
-| :white_check_mark: | `:white_check_mark:` | when adding **tests** |
-| :green_heart: | `:green_heart:` | when fixing the **CI** build |
-| :shirt: | `:shirt:` | when removing **linter**/strict/deprecation warnings or **refactoring** |
-
-## Documentation
-
-| Emoji | Raw Emoji Code | Description |
-|:---:|---|---|
-| :pencil: | `:pencil:` | when updating  **documentation** |
-| :copyright: | `:license:` | when deciding or changing **license** |
-
-## Chores
-
-| Emoji | Raw Emoji Code | Description |
-|:---:|---|---|
-| :hatching_chick: | `:hatching_chick:` | when **initial** commit |
-| :construction: | `:construction:` | when **WIP** commits |
-| :warning: | `:warning:` | when **warning** commits |
-| :heavy_plus_sign: | `:heavy_plus_sign:` | when **adding** files |
-| :heavy_minus_sign: | `:heavy_minus_sign:` | when **removing** files |
+| Emoji | Raw Emoji Code | Type | Description |
+|:---:|---|----|---|
+| :star: | `:star:` | `new` or `feature` | when adding **new feature** |
+| :bug: | `:bug:` | `bug` | when fixing **bug** |
+| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | `performance` | when fixing **performance** issue |
+| :warning: | `:warning` | `deprecated` | deprecated a feature |
+| :zap: | `:zap:` | `improvement` | for a backwards-compatible enhancement |
+| :boom: | `:boom` | `breaking` | for a backwards-incompatible enhancement |
+| :lock: | `:lock:` | `security` | when fixing **security** issue |
+| :lipstick: | `:lipstick:` | `update` | when update or fixing **UI/Cosmetic** |
+| :globe_with_meridians: | `:globe_with_meridians:` | `update` | when updating or fixing **internationalization** |
+| :shirt: | `:shirt:` | `refactor` | when removing **linter**/strict/deprecation warnings or **refactoring** |
+| :white_check_mark: | `:white_check_mark:` | `test` | when adding **tests** |
+| :green_heart: | `:green_heart:` | `test` | when fixing the **CI** build |
+| :pencil: | `:pencil:` | `docs` | when updating  **documentation** |
+| :copyright: | `:license:` | `docs` |  when deciding or changing **license** |
+| :arrow_up: | `:arrow_up:` | `dependency` | when upgrading **dependencies** |
+| :arrow_down: | `:arrow_down:` | `dependency` | when downgrading **dependencies** |
+| :pushpin: | `:pushpin:` | `dependency` | when pined **dependencies** |
+| :wrench: | `:wrench:` | `config` | when update **configration** |
+| :package: | `:package:` | `build` | when **packaging** or **bundling** or **building** |
+| :confetti_ball: | `:confetti_ball:` | `release` | when releasing **major** version |
+| :tada: | `:tada:` | `release` | when releasing **minior** version |
+| :sparkles: | `:sparkles:` | `release` | when releasing **patch** version |
+| :rocket: | `:rocket:` | `release` | when **deploy** |
+| :hatching_chick: | `:hatching_chick:` | `chore` | when **initial** commit |
+| :construction: | `:construction:` | `chore` | when **WIP** commits |
+| :heavy_plus_sign: | `:heavy_plus_sign:` | `chore` | when **adding** files |
+| :heavy_minus_sign: | `:heavy_minus_sign:` | `chore` | when **removing** files |
 
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
@@ -134,21 +118,21 @@ Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
 
 new:
 ```
-new: add 'graphiteWidth' option
+:star: new(graphite): add 'graphiteWidth' option
 ```
 
 bug fix:
 ```
-:bug: fix: stop graphite breaking when width < 0.1
+:bug: fix(graphite): stop graphite breaking when width < 0.1
 
 Closes #28
 ```
 
 improve performance:
 ```
-:chart_with_upwards_trend: performance: remove graphiteWidth option
+:chart_with_upwards_trend: performance(graphite): remove graphiteWidth option
 
-BREAKING CHANGE: The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.
+The graphiteWidth option has been removed. The default graphite width of 10mm is always used for performance reason.
 ```
 
 revert:
