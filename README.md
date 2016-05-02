@@ -2,8 +2,6 @@
 
 Extend git commit message from angular style
 
-> :warning:  WIP :construction:
-
 
 # Commit Message Format
 All Commit Message Format **MUST** meet this Text Format:
