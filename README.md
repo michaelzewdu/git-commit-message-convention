@@ -158,6 +158,8 @@ e.g. conventional-github-releaser:
 
 # TODO
 - [x] support conventional commit tools (e.g. conventional-changelog)
+- [ ] lint
+- [ ] cli
 - [ ] create a conventional commit tools with `golang`
 
 
