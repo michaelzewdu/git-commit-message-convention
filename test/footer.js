@@ -22,24 +22,6 @@ test('basic', (t) => {
   t.is(parsed.footer, 'NOTE:\nthis is the note\n\nCloses #1')
 })
 
-test('notes: breaking change', (t) => {
-  let commit = ':bug: fix(chat): broadcast $destroy event on scope destruction (by @kazupon)\n'
-    + '\n'
-    + 'BREAKING CHANGE:\n'
-    + 'this is breaking ...'
-  let parsed = parser.sync(commit, options)
-  t.deepEqual(parsed.notes, [{ title: 'BREAKING CHANGE', text: 'this is breaking ...' }])
-})
-
-test('notes: deprecated', (t) => {
-  let commit = ':bug: fix(chat): broadcast $destroy event on scope destruction (by @kazupon)\n'
-    + '\n'
-    + 'DEPRECATED:\n'
-    + 'this is deprected ...'
-  let parsed = parser.sync(commit, options)
-  t.deepEqual(parsed.notes, [{ title: 'DEPRECATED', text: 'this is deprected ...' }])
-})
-
 test('notes: note', (t) => {
   let commit = ':bug: fix(chat): broadcast $destroy event on scope destruction (by @kazupon)\n'
     + '\n'
