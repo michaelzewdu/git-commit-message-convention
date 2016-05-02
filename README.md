@@ -142,7 +142,7 @@ This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 
 
 # TODO
-- [ ] support conventional commit tools (e.g. conventional-changelog)
+- [x] support conventional commit tools (e.g. conventional-changelog)
 - [ ] create a conventional commit tools with `golang`
 
 
