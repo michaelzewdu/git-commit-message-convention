@@ -140,6 +140,21 @@ revert: new: add 'graphiteWidth' option
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
 
+# Support tools
+
+## conventional-changelog
+
+You can use with `conventional-changelog-cli` and `conventional-github-releaser`.
+
+e.g. conventional-changelog-cli:
+
+    $ npm i --save-dev git://github.com/kazupon/git-commit-message-convention.git
+    $ conventional-changelog -i CHANGELOG.md -s -n ./node_modules/git-commit-message-convention/convention.js -r 0
+
+e.g. conventional-github-releaser:
+
+    $ conventional-github-releaser -n ./node_modules/git-commit-message-convention/convention.js -r 0
+
 
 # TODO
 - [x] support conventional commit tools (e.g. conventional-changelog)
