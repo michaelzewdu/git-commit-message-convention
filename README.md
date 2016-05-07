@@ -105,8 +105,8 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :rocket: | `:rocket:` | `release` | when **deploy** |
 | :hatching_chick: | `:hatching_chick:` | `chore` | when **initial** commit |
 | :construction: | `:construction:` | `chore` | when **WIP** commits |
-| :heavy_plus_sign: | `:heavy_plus_sign:` | `chore` | when **adding** files |
-| :heavy_minus_sign: | `:heavy_minus_sign:` | `chore` | when **removing** files |
+| :heavy_plus_sign: | `:heavy_plus_sign:` | - | when **adding** files, dependencies, ... |
+| :heavy_minus_sign: | `:heavy_minus_sign:` | - | when **removing** files, dependencies, ... |
 
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
