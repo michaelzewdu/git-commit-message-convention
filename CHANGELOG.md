@@ -1,10 +1,17 @@
+<a name="0.0.3"></a>
+## [0.0.3](https://github.com/kazupon/git-commit-message-convention/compare/v0.0.2...v0.0.3) (2016-05-10)
+
+### :bug: Bug Fixes
+
+    * fix typo ([34782dc](https://github.com/kazupon/git-commit-message-convention/commit/34782dc)]
+
 <a name="0.0.2"></a>
 ## [0.0.2](https://github.com/kazupon/git-commit-message-convention/compare/v0.0.1...v0.0.2) (2016-05-02)
 
 
 ### :star: New Features
 
-* **conventional-changelog:** add conventional-changelog preset ([1c99e84](https://github.com/kazupon/git-commit-message-convention/commit/1c99e84))
+* **conventional-changelog:** add conventional-changelog preset ([1409bc2](https://github.com/kazupon/git-commit-message-convention/commit/1409bc2))
 
 
 
