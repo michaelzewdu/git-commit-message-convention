@@ -58,7 +58,7 @@ var writerOpts = {
     } else if (commit.type === 'security') {
       commit.type = ':lock: Security Fixes';
     } else if (commit.type === 'deprecated') {
-      commit.type = ':warning: Depcreted';
+      commit.type = ':warning: Deprecated';
     } else if (commit.type === 'breaking') {
       commit.type = ':boom: Breaking changes';
     } else if (commit.type === 'revert') {
