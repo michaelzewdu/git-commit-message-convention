@@ -107,6 +107,8 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :construction: | `:construction:` | `chore` | when **WIP** commits |
 | :heavy_plus_sign: | `:heavy_plus_sign:` | - | when **adding** files, dependencies, ... |
 | :heavy_minus_sign: | `:heavy_minus_sign:` | - | when **removing** files, dependencies, ... |
+| :on: | `:on:` | - | when **enable** feature and something ... |
+| :back: | `:back:` | `revert` | when **revert** commit |
 
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
@@ -135,7 +137,7 @@ The graphiteWidth option has been removed. The default graphite width of 10mm is
 
 revert:
 ```
-revert: new: add 'graphiteWidth' option
+:back: revert: new: add 'graphiteWidth' option
 
 This reverts commit 667ecc1654a317a13331b17617d973392f415f02.
 ```
