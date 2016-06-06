@@ -1,3 +1,14 @@
+<a name="0.0.4"></a>
+## [0.0.4](https://github.com/kazupon/git-commit-message-convention/compare/v0.0.2...v0.0.4) (2016-06-06)
+
+
+### :bug: Bug Fixes
+
+* fix typo ([34782dc](https://github.com/kazupon/git-commit-message-convention/commit/34782dc))
+* **convention:** fix bug fix listup issue ([3b96930](https://github.com/kazupon/git-commit-message-convention/commit/3b96930))
+
+
+
 <a name="0.0.3"></a>
 ## [0.0.3](https://github.com/kazupon/git-commit-message-convention/compare/v0.0.2...v0.0.3) (2016-05-10)
 

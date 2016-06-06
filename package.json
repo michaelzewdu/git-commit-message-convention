@@ -1,7 +1,7 @@
 {
   "name": "git-commit-message-convention",
   "description": "Extend git commit message from angular style",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": {
     "name": "kazuya kawaguchi",
     "email": "kawakazu80@gmail.com"
