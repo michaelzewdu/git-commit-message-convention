@@ -49,7 +49,7 @@ var writerOpts = {
       commit.type = ':star: New Features';
     } else if (commit.type === 'feature') {
       commit.type = ':star: New Features';
-    } else if (commit.type === 'fix') {
+    } else if (commit.type === 'bug') {
       commit.type = ':bug: Bug Fixes';
     } else if (commit.type === 'improvement') {
       commit.type = ':zap: Improvements';
