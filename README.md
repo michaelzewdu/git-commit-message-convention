@@ -83,7 +83,7 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :star: | `:star:` | `new` or `feature` | when adding **new feature** |
 | :bug: | `:bug:` | `bug` | when fixing **bug** |
 | :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | `performance` | when fixing **performance** issue |
-| :warning: | `:warning` | `deprecated` | deprecated a feature |
+| :warning: | `:warning:` | `deprecated` | deprecated a feature |
 | :zap: | `:zap:` | `improvement` | for a backwards-compatible enhancement |
 | :boom: | `:boom` | `breaking` | for a backwards-incompatible enhancement |
 | :lock: | `:lock:` | `security` | when fixing **security** issue |
