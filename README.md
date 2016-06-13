@@ -87,7 +87,8 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :zap: | `:zap:` | `improvement` | for a backwards-compatible enhancement |
 | :boom: | `:boom` | `breaking` | for a backwards-incompatible enhancement |
 | :lock: | `:lock:` | `security` | when fixing **security** issue |
-| :lipstick: | `:lipstick:` | `update` | when update or fixing **UI/Cosmetic** |
+| :lipstick: | `:lipstick:` | `update` | when update **UI/Cosmetic** fixing |
+| :up: | `:up:` | `update` | when update **other** |
 | :globe_with_meridians: | `:globe_with_meridians:` | `update` | when updating or fixing **internationalization** |
 | :shirt: | `:shirt:` | `refactor` | when removing **linter**/strict/deprecation warnings or **refactoring** |
 | :white_check_mark: | `:white_check_mark:` | `test` | when adding **tests** |
