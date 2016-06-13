@@ -1,3 +1,13 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/kazupon/git-commit-message-convention/compare/v1.0.0...v1.1.0) (2016-06-13)
+
+
+### :zap: Improvements
+
+* **emoji:** add update emoji ([04a9c66](https://github.com/kazupon/git-commit-message-convention/commit/04a9c66))
+
+
+
 <a name="1.0.0"></a>
 # [1.0.0](https://github.com/kazupon/git-commit-message-convention/compare/v0.0.4...v1.0.0) (2016-06-13)
 
