@@ -105,8 +105,8 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :tada:                     | `:tada:`                     | `release`          | release **minior** version |
 | :sparkles:                 | `:sparkles:`                 | `release`          | release **patch** version |
 | :rocket:                   | `:rocket:`                   | `release`          | **deploy** to production enviroment |
-| :back:                     | `:back:`                     | `revert`           | **revert** commit |
-| :construction:             | `:construction:`             | `chore`            | **WIP** commit |
+| :back:                     | `:back:`                     | `revert`           | **revert** commiting |
+| :construction:             | `:construction:`             | `wip`              | **WIP** commiting |
 | :heavy_plus_sign:          | `:heavy_plus_sign:`          | -                  | **add** files, dependencies, ... |
 | :heavy_minus_sign:         | `:heavy_minus_sign:`         | -                  | **removg** files, dependencies, ... |
 | :on:                       | `:on:`                       | -                  | **enable** feature and something ... |
