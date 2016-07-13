@@ -92,7 +92,7 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :globe_with_meridians:     | `:globe_with_meridians:`     | `update`           | update or fix **internationalization** |
 | :shirt:                    | `:shirt:`                    | `refactor`         | remove **linter**/strict/deprecation warnings or **refactoring** or code **layouting** |
 | :white_check_mark:         | `:white_check_mark:`         | `test`             | add **tests** |
-| :green_heart:              | `:green_heart:`              | `test`             | fix **CI** building |
+| :green_heart:              | `:green_heart:`              | `test`             | fix **tests** failur or **CI** building |
 | :pencil:                   | `:pencil:`                   | `docs`             | update **documentation** |
 | :copyright:                | `:license:`                  | `docs`             | decide or change **license** |
 | :arrow_up:                 | `:arrow_up:`                 | `dependency`       | upgrade **dependencies** |
