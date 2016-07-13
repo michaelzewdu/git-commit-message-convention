@@ -100,11 +100,11 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :pushpin: | `:pushpin:` | `dependency` | when pined **dependencies** |
 | :wrench: | `:wrench:` | `config` | when update **configration** |
 | :package: | `:package:` | `build` | when **packaging** or **bundling** or **building** |
+| :hatching_chick: | `:hatching_chick:` | `release` | when **initial** commit |
 | :confetti_ball: | `:confetti_ball:` | `release` | when releasing **major** version |
 | :tada: | `:tada:` | `release` | when releasing **minior** version |
 | :sparkles: | `:sparkles:` | `release` | when releasing **patch** version |
 | :rocket: | `:rocket:` | `release` | when **deploy** |
-| :hatching_chick: | `:hatching_chick:` | `chore` | when **initial** commit |
 | :construction: | `:construction:` | `chore` | when **WIP** commits |
 | :heavy_plus_sign: | `:heavy_plus_sign:` | - | when **adding** files, dependencies, ... |
 | :heavy_minus_sign: | `:heavy_minus_sign:` | - | when **removing** files, dependencies, ... |
