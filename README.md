@@ -108,7 +108,7 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :back:                     | `:back:`                     | `revert`           | **revert** commiting |
 | :construction:             | `:construction:`             | `wip`              | **WIP** commiting |
 | :heavy_plus_sign:          | `:heavy_plus_sign:`          | -                  | **add** files, dependencies, ... |
-| :heavy_minus_sign:         | `:heavy_minus_sign:`         | -                  | **removg** files, dependencies, ... |
+| :heavy_minus_sign:         | `:heavy_minus_sign:`         | -                  | **remove** files, dependencies, ... |
 | :on:                       | `:on:`                       | -                  | **enable** feature and something ... |
 
 
