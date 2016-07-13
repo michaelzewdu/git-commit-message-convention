@@ -1,3 +1,23 @@
+<a name="1.2.0"></a>
+# [1.2.0](https://github.com/kazupon/git-commit-message-convention/compare/v1.1.0...v1.2.0) (2016-07-13)
+
+
+### :boom: Breaking changes
+
+* **README:** change wip commit type ([51206e0](https://github.com/kazupon/git-commit-message-convention/commit/51206e0))
+
+
+### :zap: Improvements
+
+* **convention:** add update group to release note enumration ([ea64fbe](https://github.com/kazupon/git-commit-message-convention/commit/ea64fbe))
+
+
+### :up: Updates
+
+* **README:** add green heart emoji case ([5fa8562](https://github.com/kazupon/git-commit-message-convention/commit/5fa8562))
+* **README:** change initial commit type ([eaa0f99](https://github.com/kazupon/git-commit-message-convention/commit/eaa0f99))
+
+
 <a name="1.1.0"></a>
 # [1.1.0](https://github.com/kazupon/git-commit-message-convention/compare/v1.0.0...v1.1.0) (2016-06-13)
 
