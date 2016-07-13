@@ -17,26 +17,26 @@ All Commit Message Format **MUST** meet this Text Format:
 
 # Types
 
-| Type | Description |
-|:---:|---|
-| `new`| implemented a new feature |
-| `feature`| implemented a new feature (equal `new`) |
-| `bug` | for a bug fix |
-| `performance` | for a performance issue fix |
-| `security` | for a security issue fix |
-| `deprecated` | deprecated a feature |
-| `improvement` | for a backwards-compatible enhancement |
-| `breaking` | for a backwards-incompatible enhancement |
-| `update` | update commits |
-| `refactor` | for the refactoring |
-| `docs` | for the documentation commits |
-| `test` | for the testing commits |
-| `dependency` | when upgrading or downgrading |
-| `config` | when configuration |
-| `build` | when building or bundling |
-| `release` | published for the real world |
-| `wip` | work in progress commits |
-| `chore` | other operations commits |
+| Type          | Description |
+|:-------------:|-------------|
+| `new`         | for new feature implementing commit|
+| `feature`     | for new feature implementing commit (equal `new`) |
+| `bug`         | for bug fix commit |
+| `security`    | for security issue fix commit |
+| `performance` | for performance issue fix commit |
+| `improvement` | for backwards-compatible enhancement commit |
+| `breaking`    | for backwards-incompatible enhancement commit |
+| `deprecated`  | for deprecated feature commit |
+| `update`      | for update commit |
+| `refactor`    | for refactoring commit |
+| `docs`        | for documentation commit |
+| `test`        | for testing commit |
+| `dependency`  | for dependencies upgrading or downgrading commit |
+| `config`      | for configuration commit |
+| `build`       | for packaging or bundling commit |
+| `release`     | for publishing commit |
+| `wip`         | for work in progress commit |
+| `chore`       | for other operations commit |
 
 
 If the prefix is the below types, it will appear in the changelog. 
@@ -78,38 +78,38 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 
 # Emojis
 
-| Emoji | Raw Emoji Code | Type | Description |
-|:---:|---|----|---|
-| :star: | `:star:` | `new` or `feature` | when adding **new feature** |
-| :bug: | `:bug:` | `bug` | when fixing **bug** |
-| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | `performance` | when fixing **performance** issue |
-| :warning: | `:warning:` | `deprecated` | deprecated a feature |
-| :zap: | `:zap:` | `improvement` | for a backwards-compatible enhancement |
-| :boom: | `:boom` | `breaking` | for a backwards-incompatible enhancement |
-| :lock: | `:lock:` | `security` | when fixing **security** issue |
-| :lipstick: | `:lipstick:` | `update` | when update **UI/Cosmetic** fixing |
-| :up: | `:up:` | `update` | when update **other** |
-| :globe_with_meridians: | `:globe_with_meridians:` | `update` | when updating or fixing **internationalization** |
-| :shirt: | `:shirt:` | `refactor` | when removing **linter**/strict/deprecation warnings or **refactoring** |
-| :white_check_mark: | `:white_check_mark:` | `test` | when adding **tests** |
-| :green_heart: | `:green_heart:` | `test` | when fixing the **CI** build |
-| :pencil: | `:pencil:` | `docs` | when updating  **documentation** |
-| :copyright: | `:license:` | `docs` |  when deciding or changing **license** |
-| :arrow_up: | `:arrow_up:` | `dependency` | when upgrading **dependencies** |
-| :arrow_down: | `:arrow_down:` | `dependency` | when downgrading **dependencies** |
-| :pushpin: | `:pushpin:` | `dependency` | when pined **dependencies** |
-| :wrench: | `:wrench:` | `config` | when update **configration** |
-| :package: | `:package:` | `build` | when **packaging** or **bundling** or **building** |
-| :hatching_chick: | `:hatching_chick:` | `release` | when **initial** commit |
-| :confetti_ball: | `:confetti_ball:` | `release` | when releasing **major** version |
-| :tada: | `:tada:` | `release` | when releasing **minior** version |
-| :sparkles: | `:sparkles:` | `release` | when releasing **patch** version |
-| :rocket: | `:rocket:` | `release` | when **deploy** |
-| :construction: | `:construction:` | `chore` | when **WIP** commits |
-| :heavy_plus_sign: | `:heavy_plus_sign:` | - | when **adding** files, dependencies, ... |
-| :heavy_minus_sign: | `:heavy_minus_sign:` | - | when **removing** files, dependencies, ... |
-| :on: | `:on:` | - | when **enable** feature and something ... |
-| :back: | `:back:` | `revert` | when **revert** commit |
+| Emoji                      | Raw Emoji Code               | Type               | Description |
+|:--------------------------:|------------------------------|--------------------|-------------|
+| :star:                     | `:star:`                     | `new` or `feature` | add **new feature** |
+| :bug:                      | `:bug:`                      | `bug`              | fix **bug** issue |
+| :lock:                     | `:lock:`                     | `security`         | fix **security** issue |
+| :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | `performance`      | fix **performance** issue |
+| :zap:                      | `:zap:`                      | `improvement`      | update **backwards-compatible** feature |
+| :boom:                     | `:boom`                      | `breaking`         | update **backwards-incompatible** feature |
+| :warning:                  | `:warning:`                  | `deprecated`       | **deprecate** feature |
+| :lipstick:                 | `:lipstick:`                 | `update`           | update **UI/Cosmetic** |
+| :up:                       | `:up:`                       | `update`           | update **other** |
+| :globe_with_meridians:     | `:globe_with_meridians:`     | `update`           | update or fix **internationalization** |
+| :shirt:                    | `:shirt:`                    | `refactor`         | remove **linter**/strict/deprecation warnings or **refactoring** or code **layouting** |
+| :white_check_mark:         | `:white_check_mark:`         | `test`             | add **tests** |
+| :green_heart:              | `:green_heart:`              | `test`             | fix **CI** building |
+| :pencil:                   | `:pencil:`                   | `docs`             | update **documentation** |
+| :copyright:                | `:license:`                  | `docs`             | decide or change **license** |
+| :arrow_up:                 | `:arrow_up:`                 | `dependency`       | upgrade **dependencies** |
+| :arrow_down:               | `:arrow_down:`               | `dependency`       | downgrade **dependencies** |
+| :pushpin:                  | `:pushpin:`                  | `dependency`       | pin **dependencies** |
+| :wrench:                   | `:wrench:`                   | `config`           | update **configration** |
+| :package:                  | `:package:`                  | `build`            | **packaging** or **bundling** or **building** |
+| :hatching_chick:           | `:hatching_chick:`           | `release`          | **initial** commit |
+| :confetti_ball:            | `:confetti_ball:`            | `release`          | release **major** version |
+| :tada:                     | `:tada:`                     | `release`          | release **minior** version |
+| :sparkles:                 | `:sparkles:`                 | `release`          | release **patch** version |
+| :rocket:                   | `:rocket:`                   | `release`          | **deploy** to production enviroment |
+| :back:                     | `:back:`                     | `revert`           | **revert** commit |
+| :construction:             | `:construction:`             | `chore`            | **WIP** commit |
+| :heavy_plus_sign:          | `:heavy_plus_sign:`          | -                  | **add** files, dependencies, ... |
+| :heavy_minus_sign:         | `:heavy_minus_sign:`         | -                  | **removg** files, dependencies, ... |
+| :on:                       | `:on:`                       | -                  | **enable** feature and something ... |
 
 
 Ask to Be [Creative](http://www.emoji-cheat-sheet.com/)!
