@@ -51,6 +51,8 @@ var writerOpts = {
       commit.type = ':star: New Features';
     } else if (commit.type === 'bug') {
       commit.type = ':bug: Bug Fixes';
+    } else if (commit.type === 'update') {
+      commit.type = ':up: Updates';
     } else if (commit.type === 'improvement') {
       commit.type = ':zap: Improvements';
     } else if (commit.type === 'performance') {
