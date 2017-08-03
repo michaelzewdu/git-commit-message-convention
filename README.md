@@ -27,14 +27,15 @@ All Commit Message Format **MUST** meet this Text Format:
 | `improvement` | for backwards-compatible enhancement commit |
 | `breaking`    | for backwards-incompatible enhancement commit |
 | `deprecated`  | for deprecated feature commit |
-| `update`      | for update commit |
 | `refactor`    | for refactoring commit |
 | `docs`        | for documentation commit |
+| `examples`    | for example code commit |
 | `test`        | for testing commit |
 | `dependency`  | for dependencies upgrading or downgrading commit |
 | `config`      | for configuration commit |
 | `build`       | for packaging or bundling commit |
 | `release`     | for publishing commit |
+| `update`      | for update commit |
 | `wip`         | for work in progress commit |
 | `chore`       | for other operations commit |
 
