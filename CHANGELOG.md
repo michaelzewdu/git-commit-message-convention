@@ -1,3 +1,22 @@
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/kazupon/git-commit-message-convention/compare/v1.2.0...v2.0.0) (2019-11-29)
+
+
+### :star: New Features
+
+* emoji :twisted_rightwards_arrows: for merge conflict resolution ([b305fe3](https://github.com/kazupon/git-commit-message-convention/commit/b305fe3))
+
+
+### :boom: Breaking changes
+
+* dependency to deps ([1485b28](https://github.com/kazupon/git-commit-message-convention/commit/1485b28))
+
+
+### :bug: Bug Fixes
+
+* Fix :copyright: license emoji code ([#5](https://github.com/kazupon/git-commit-message-convention/issues/5)) by [@anselal](https://github.com/anselal) ([0ba5929](https://github.com/kazupon/git-commit-message-convention/commit/0ba5929)), closes [#5](https://github.com/kazupon/git-commit-message-convention/issues/5)
+
+
 <a name="1.2.0"></a>
 # [1.2.0](https://github.com/kazupon/git-commit-message-convention/compare/v1.1.0...v1.2.0) (2016-07-13)
 
