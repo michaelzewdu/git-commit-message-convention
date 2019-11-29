@@ -86,13 +86,6 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :star:                     | `:star:`                     | `new` or `feature` | add **new feature** |
 | :bug:                      | `:bug:`                      | `bug`              | fix **bug** issue |
 | :ambulance:                | `:ambulance:`                | `bug`              | ciritial hotfix **bug** issue |
-| :lipstick:                 | `:lipstick:`                 | `update`           | update **UI/Cosmetic** |
-| :up:                       | `:up:`                       | `update`           | update **other** |
-| :truck:                    | `:truck:`                    | `update`           | **move** or **rename** files, repository, ... |
-| :twisted_rightwards_arrows:| `:twisted_rightwards_arrows:`| `update`           | merge **conflict resolution** |
-| :heavy_plus_sign:          | `:heavy_plus_sign:`          | `update`           | **add** files, dependencies, ... |
-| :heavy_minus_sign:         | `:heavy_minus_sign:`         | `update`           | **remove** files, dependencies, ... |
-| :on:                       | `:on:`                       | `update`           | **enable** feature and something ... |
 | :lock:                     | `:lock:`                     | `security`         | fix **security** issue |
 | :chart_with_upwards_trend: | `:chart_with_upwards_trend:` | `performance`      | fix **performance** issue |
 | :zap:                      | `:zap:`                      | `improvement`      | update **backwards-compatible** feature |
@@ -106,6 +99,13 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :pencil:                   | `:pencil:`                   | `docs`             | update **documentation** |
 | :copyright:                 | `:copyright:`                 | `docs`             | decide or change **license** |
 | :lollipop:                 | `:lollipop:`                 | `example`          | for **example** or **demo** codes |
+| :lipstick:                 | `:lipstick:`                 | `update`           | update **UI/Cosmetic** |
+| :up:                       | `:up:`                       | `update`           | update **other** |
+| :truck:                    | `:truck:`                    | `update`           | **move** or **rename** files, repository, ... |
+| :twisted_rightwards_arrows:| `:twisted_rightwards_arrows:`| `update`           | merge **conflict resolution** |
+| :heavy_plus_sign:          | `:heavy_plus_sign:`          | `update`           | **add** files, dependencies, ... |
+| :heavy_minus_sign:         | `:heavy_minus_sign:`         | `update`           | **remove** files, dependencies, ... |
+| :on:                       | `:on:`                       | `update`           | **enable** feature and something ... |
 | :arrow_up:                 | `:arrow_up:`                 | `deps`             | upgrade **dependencies** |
 | :arrow_down:               | `:arrow_down:`               | `deps`             | downgrade **dependencies** |
 | :pushpin:                  | `:pushpin:`                  | `deps`             | pin **dependencies** |
