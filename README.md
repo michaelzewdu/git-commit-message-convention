@@ -34,7 +34,7 @@ All Commit Message Format **MUST** meet this Text Format:
 | `docs`        | for documentation commit |
 | `example`     | for example code commit |
 | `test`        | for testing commit |
-| `dependency`  | for dependencies upgrading or downgrading commit |
+| `deps`        | for dependencies upgrading or downgrading commit |
 | `config`      | for configuration commit |
 | `build`       | for packaging or bundling commit |
 | `release`     | for publishing commit |
@@ -106,9 +106,9 @@ If the commit reverts a previous commit, it should begin with revert:, followed 
 | :pencil:                   | `:pencil:`                   | `docs`             | update **documentation** |
 | :copyright:                 | `:copyright:`                 | `docs`             | decide or change **license** |
 | :lollipop:                 | `:lollipop:`                 | `example`          | for **example** or **demo** codes |
-| :arrow_up:                 | `:arrow_up:`                 | `dependency`       | upgrade **dependencies** |
-| :arrow_down:               | `:arrow_down:`               | `dependency`       | downgrade **dependencies** |
-| :pushpin:                  | `:pushpin:`                  | `dependency`       | pin **dependencies** |
+| :arrow_up:                 | `:arrow_up:`                 | `deps`             | upgrade **dependencies** |
+| :arrow_down:               | `:arrow_down:`               | `deps`             | downgrade **dependencies** |
+| :pushpin:                  | `:pushpin:`                  | `deps`             | pin **dependencies** |
 | :wrench:                   | `:wrench:`                   | `config`           | update **configuration** |
 | :package:                  | `:package:`                  | `build`            | **packaging** or **bundling** or **building** |
 | :hatching_chick:           | `:hatching_chick:`           | `release`          | **initial** commit |
